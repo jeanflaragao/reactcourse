@@ -9,11 +9,6 @@ function calcFatorial(num) {
   return calcFatorial(n - 1) * n;
 }
 
-function parImpar(num){
-    if (num % 2 === 0) return "Par"
-    return "Ímpar"
-} 
-
 const UseEffect = (props) => {
   const [number, setNumber] = useState(1);
   const [fatorial, setFatorial] = useState(1);
