@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Media from './components/Media';
 import Soma from './components/Soma';
